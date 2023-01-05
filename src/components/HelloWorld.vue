@@ -1,19 +1,21 @@
-<script setup>
-defineProps({
-  data: {
-    message: 'Ведите задачу !',
-    tipes: 'button',
-    disState: true,
-    taskList: [
-      'Развернуть окружение в Codepen',
-      'Пройти курс по Vue',
-      'Сделать интернет-магазин на Vue',
-    ],
-    taskListDone: [
-      'дз скиллбоксу скинул',
-      'показания счетчика передал',
-    ]
-  }
+<script>
+export default ({
+  data() {
+    return {
+      message: 'Ведите задачу !',
+      tipes: 'button',
+      disState: true,
+      taskList: [
+        'Развернуть окружение в Codepen',
+        'Пройти курс по Vue',
+        'Сделать интернет-магазин на Vue',
+      ],
+      taskListDone: [
+        'дз скиллбоксу скинул',
+        'показания счетчика передал',
+      ]
+    }
+  } 
 })
 </script>
 
