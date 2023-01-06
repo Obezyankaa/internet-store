@@ -1,8 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoBlock from './components/TodoBlock.vue'
 </script>
 
 <template>
-      <HelloWorld msg="You did it!" />
+      <TodoBlock />
 </template>
 
+<style>
+
+body {
+      background-color: rgb(43, 54, 54);
+} 
+
+</style>
